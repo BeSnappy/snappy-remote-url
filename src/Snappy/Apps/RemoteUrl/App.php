@@ -53,7 +53,7 @@ class App extends BaseApp implements ContactLookupHandler {
 	 * @var array
 	 */
 	public $settings = array(
-		array('name' => 'account', 'type' => 'text', 'help' => 'Enter your Highrise Account Name'),
+		array('name' => 'url', 'type' => 'text', 'help' => 'Enter the URL that will lookup contacts'),
 		array('name' => 'token', 'type' => 'text', 'help' => 'Security token for message verification'),
 	);
 
