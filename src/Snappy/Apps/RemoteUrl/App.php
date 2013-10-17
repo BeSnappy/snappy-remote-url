@@ -10,42 +10,42 @@ class App extends BaseApp implements ContactLookupHandler {
 	 *
 	 * @var string
 	 */
-	public $name = 'Application Name';
+	public $name = 'Custom Contact Lookup';
 
 	/**
 	 * The application description.
 	 *
 	 * @var string
 	 */
-	public $description = 'Application Description';
+	public $description = 'Lookup contact information using a custom, remote URL.';
 
 	/**
 	 * Any notes about this application
 	 *
 	 * @var string
 	 */
-	public $notes = 'Application Notes';
+	public $notes = '';
 
 	/**
 	 * The application's icon filename.
 	 *
 	 * @var string
 	 */
-	public $icon = 'icon.png';
+	public $icon = 'remote_url.png';
 
 	/**
 	 * The application author name.
 	 *
 	 * @var string
 	 */
-	public $author = 'Your Name';
+	public $author = 'UserScape, Inc.';
 
 	/**
 	 * The application author e-mail.
 	 *
 	 * @var string
 	 */
-	public $email = 'Your Email';
+	public $email = 'it@userscape.com';
 
 	/**
 	 * The settings required by the application.
