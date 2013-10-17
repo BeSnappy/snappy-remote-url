@@ -83,7 +83,7 @@ class App extends BaseApp implements ContactLookupHandler {
 
 		try
 		{
-			return (string) $request->send()->getBody();
+			return purify((string) $request->send()->getBody());
 		}
 		catch (\Exception $e)
 		{
