@@ -24,7 +24,7 @@ class App extends BaseApp implements ContactLookupHandler {
 	 *
 	 * @var string
 	 */
-	public $notes = '';
+	public $notes = 'We recommend using HTTPS URLs when using this application.';
 
 	/**
 	 * The application's icon filename.
