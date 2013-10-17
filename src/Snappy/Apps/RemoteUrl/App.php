@@ -76,6 +76,7 @@ class App extends BaseApp implements ContactLookupHandler {
 	public function handleContactLookup(array $contact)
 	{
 		$guzzle = new \Guzzle\Http\Client;
+		$guzzle->setSslVerification(false);
 
 		$request = $guzzle->post($this->config['url']);
 		$request->setPostField('contact', json_encode($contact));
