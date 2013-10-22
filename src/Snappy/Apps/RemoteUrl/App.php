@@ -33,6 +33,8 @@ class App extends BaseApp implements ContactLookupHandler {
 	 */
 	public $icon = 'remote_url.png';
 
+	public $website = '';
+
 	/**
 	 * The application author name.
 	 *
