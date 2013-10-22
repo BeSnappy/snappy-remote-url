@@ -53,8 +53,8 @@ class App extends BaseApp implements ContactLookupHandler {
 	 * @var array
 	 */
 	public $settings = array(
-		array('name' => 'url', 'type' => 'text', 'help' => 'Enter the URL that will lookup contacts'),
-		array('name' => 'token', 'type' => 'text', 'help' => 'Security token for message verification'),
+		array('name' => 'url', 'type' => 'text', 'help' => 'Enter the URL that will lookup contacts', 'validate' => 'required'),
+		array('name' => 'token', 'type' => 'text', 'help' => 'Security token for message verification', 'validate' => 'required'),
 	);
 
 	/**
